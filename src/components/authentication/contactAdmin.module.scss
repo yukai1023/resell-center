@@ -1,0 +1,35 @@
+.contactAdmin {
+	display: flex;
+	background-color: #FFFFFF;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 30px;
+	height: 100%;
+	text-align: center;
+	h1 {
+		font-size: 28px;
+		color: #FF6C36;
+	}
+	img {
+		height: 48px;
+	}
+	p {
+		margin: 25px;
+		font-size: 14px;
+	}
+	.returnButton {
+		width: 120px;
+		height: 40px;
+		margin: 30px 0 35px;
+		color: #EEEEEE;
+		border: none;
+		font-size: 16px;
+		box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.16);
+		background: linear-gradient(93.11deg, rgba(243, 151, 62, 0.5) 0%, rgba(226, 125, 51, 0.757812) 29.33%, #CE6D39 85.34%);
+		border-radius: 5px;
+		cursor: pointer;
+	}
+}
+
+

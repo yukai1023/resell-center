@@ -1,0 +1,98 @@
+.Login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: linear-gradient(75.31deg, #0A1A3F 20.42%, rgba(19, 51, 124, 0.8) 100%);	
+	.container {		
+		display: flex;
+		position: relative;	
+		height: 600px;
+		min-height: 600px;
+		width: 900px;
+		min-width: 900px;
+		background-color: #fff;
+		border-radius: 8px;
+		overflow: hidden;
+		box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+		.leftContainer {
+			display: flex;
+			height: 100%;
+			width: 50%;
+			justify-content: center;
+			background: linear-gradient(51.86deg, #081635 31.36%, #0B2153 66.18%, #0C2B71 92.19%);
+			.textField {
+				position: absolute;
+				top: 120px;
+				left: 40px;
+				.firstTextField {
+					display: flex;
+					align-items: center;
+					.triangle {
+						width: 0;
+						height: 0;
+						border-top: 14px solid transparent;
+						border-left: 28px solid #FF6C36;
+						border-bottom: 14px solid transparent;
+					}
+					span {
+						margin-left: 20px;
+						font-size: 50px;
+						color: #F8F8F8;
+					}
+				}
+				.secondTextField {
+					margin-bottom: 30px;
+					span {
+						font-size: 50px;
+						color: #FF6C36;
+					}
+				}
+				.thirdTextField {
+					display: flex;
+					flex-direction: column;
+					span {
+						font-size: 25px;
+						color: #979797;
+					}
+				}
+			}
+			svg {
+				position: absolute;
+				bottom: 70px;
+			}
+		}
+		.rightContainer {
+			height: 100%;
+			width: 50%;
+			background: #ECF1F5;
+			z-index: 2;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.container {
+		transform: scale(.7)
+	}
+}
+
+@media (max-width: 1000px) {
+	.container {
+		transform: scale(.6)
+	}
+}
+
+@media (max-width: 800px) {
+	.container {
+		transform: scale(.5)
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		transform: scale(.4)
+	}
+}
+
+

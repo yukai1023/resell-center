@@ -1,0 +1,27 @@
+{
+  "login": {
+    "account": "帳號",
+    "password": "密碼",
+    "forgotPassword": "忘記密碼?",
+    "contactSystemAdmin": "請聯繫系統管理員",
+    "login": "登入",
+    "notHaveAccount": "尚未有帳號？馬上",
+    "signUp": "註冊"
+  },
+  "contactAdmin": {
+    "contactAdmin": "請聯繫系統管理員，或寄信到以下信箱我們將協助您！",
+    "return": "返回"
+  },
+  "signUp": {
+    "haveAccount": "已經有 Customer Portal 帳號了嗎？",
+    "login": "登入",
+    "email": "聯絡信箱",
+    "password": "密碼",
+    "confirmPassword": "確認密碼",
+    "name": "聯絡人姓名",
+    "phone": "聯絡人電話",
+    "company": "公司名稱",
+    "agreeTerms": "點擊註冊帳號並發出認證信即代表同意服務條款。",
+    "sendVerificationEmail": "註冊帳號並發出認證信"
+  }
+}

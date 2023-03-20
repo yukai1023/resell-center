@@ -1,0 +1,12 @@
+main {
+	height: 100vh;
+	.container {
+		height: calc(100vh - 50px);
+		display: flex;
+		.content {
+			background: #E8EEF3;
+			flex-grow: 1;
+			padding: 20px 60px 60px;
+		}
+	}
+}

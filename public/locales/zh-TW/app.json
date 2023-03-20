@@ -1,0 +1,23 @@
+{
+  "button": {
+    "login": "Log In",
+    "cancel": "Cancel",
+    "confirm": "OK",
+    "apply": "Apply",
+    "save": "Save"
+  },
+  "label": {
+    "account": "Username",
+    "password": "Password",
+    "signUp": "sign up"
+  },
+  "header": {
+    "toggleLanguage": "Change Language",
+    "password": "Password",
+    "logout": "Logout"
+  },
+  "login": {
+    "forgotPassword": "Forgot Password",
+    "forgotPasswordMessage": "Please contact us to recover your account."
+  }
+}

@@ -1,0 +1,40 @@
+header {
+	display: flex;
+	height: 50px;
+	width: 100%;
+	padding: 15px 48px;
+	background: #0A1A3F;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	.left {
+		display: flex;
+		.name {
+			color: #EEEEEE;
+			font-size: 20px;
+			line-height: 24px;
+			font-weight: 700;
+		}
+	}
+	.right {
+		display: flex;
+    align-items: center;
+		button {
+			display: flex;
+			background-color: transparent;
+			border: none;
+			cursor: pointer;
+		}
+		.profile {
+			border-left: 2px solid #ddd;
+			padding-left: 10px;
+			margin-left: 10px;
+			.name {
+				color: #EEEEEE;
+				font-size: 16px;
+				line-height: 24px;
+				font-weight: 700;
+			}
+		}
+	}
+}
